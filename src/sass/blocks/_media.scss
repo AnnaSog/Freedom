@@ -1,0 +1,422 @@
+@media (max-width: 1200px) {
+
+    .container{
+        max-width: 990px;
+    }
+
+    .header {
+        .bar {
+            &__wrapper {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &__form {
+                display: none;
+            }
+            .hamburger {
+                display: block;
+                margin-left: 10px;
+            }
+            .cart {
+                display: none;
+            }
+            .flex-end {
+                display: flex;
+                justify-content:flex-end;
+            }
+        }  
+        .menu {
+            display: none;
+        } 
+    }
+
+    .investments {
+        .img_percent{
+            width: auto;
+            height: 424px;
+            position: absolute;
+            top: 295px;
+            right: 0;
+        }
+    }
+    .convenience {
+        &__wrapper {
+            img {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .stocks {
+        &__wrapper {
+            img {
+                @include block_img;
+            }
+        }
+    }
+
+    .proposal {
+        &__wrapper {
+            img {
+                @include block_img;
+            }
+        }
+    }
+
+    .deposit{
+        &__wrapper {
+            img {
+                @include block_img;
+            }
+        }
+    }
+    .share {
+        &__wrapper {
+            img {
+                @include block_img;
+            }
+        }
+    }
+
+    .analytics {
+        height: auto;
+        &__awards {
+            display: flex;
+            flex-wrap:wrap
+        }
+    }
+
+    .title {
+        &_fz18 {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        &_fz24{
+            font-size: 20px;
+        }
+        &_fz60{
+            font-size: 40px;
+            line-height: 60px;
+
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .container{
+        max-width: 758px;
+    }
+
+    .investments{
+        &__wrapper {
+            .info_img {
+                display: none;
+            }
+        }
+    } 
+    .logos {
+        max-width: 387px;
+        img {
+            margin-top: 15px;
+        }
+    }
+    .convenience {
+        &__wrapper {
+            @include column;
+            img {
+                height: 395px;
+                width: auto;
+            }   
+        }
+        &__text {
+            margin-left: 0;
+        }
+    }
+
+    .stocks {
+        &__wrapper {
+            @include column;
+            img {
+                margin-top: 40px;
+                height: 263px;
+            }
+        }
+    }
+
+    .proposal {
+        &__wrapper {
+            @include column;
+            img {
+                margin-top: 20px;
+                height: 250px;
+            }
+        }
+    }
+
+    .deposit{
+        &__wrapper {
+            @include column;
+            img {
+                margin-top: 20px;
+                height: 328px;
+            }
+        }
+    }
+    .share {
+        &__wrapper {
+            @include column;
+            img {
+                margin-top: 20px;
+                height: 367px;
+            }
+        }
+    }
+
+    .protection &:nth-child(2) {
+        order: -1;
+    }
+    .protection {
+        margin-top: 70px;
+        &__block {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            .before_fz18 {
+                margin-top: 30px;
+            }
+            img {
+                width: 147px;
+            }
+        }
+    }  
+    
+    .footer {
+        display: none;
+    }
+}
+
+@media (max-width: 641px) {
+    .container {
+        max-width: 560px;
+    }
+
+    .header {
+        .bar__blokSignUp {
+            display: none;
+        }
+    }
+
+    .title {
+        &_fz60{
+            font-size: 30px;
+            line-height: 36px;
+        }
+        &_fz30{
+            font-size: 24px;
+            line-height: 28px;
+        }
+        &_fz40{
+            font-size: 24px;
+            line-height: 28px;
+        }
+        &_fz24{
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+
+    .analytics {
+        &__awards {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+    }
+
+    .userData {
+        &__form {
+            input {
+                width: 560px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header {
+        .bar {
+            &__shopping {
+                .car {
+                    height: 20px;
+                    width: 20px;
+                    margin-left: 15px;
+                }
+            }
+            .hamburger {
+                width: 20px;
+                height: 20px;
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .investments{
+        padding-left: 0;
+        background: none;
+        min-height: 590px;
+        &__wrapper{
+            @include column 
+        }
+        &__info {
+            padding: 0 24px 0 24px;
+            max-width: 312px;
+            min-height: 192px;
+            text-align: center;
+        }
+        .img_percent{
+            margin-top: 40px;
+            width: 100%;
+            height: 262px;
+            position: static;
+        }
+    }
+
+    .logos {
+        margin-top: 70px;
+        padding: 0px 24px;
+    }
+    
+    .convenience {
+        padding: 0px 0 0 24px;
+        &__wrapper {
+            img {
+                @include block_img_min;
+            }   
+        }
+        &__text {
+            .mt70 {
+                margin-top: 20px;
+            }
+        } 
+    }
+    
+    .stocks {
+        @include block_min;
+        margin-top: 57px;
+        &__text { 
+            @include block_p24
+        }
+        &__wrapper {
+            
+            img {
+                @include block_img_min;
+            }
+        }
+    }
+
+    .proposal {
+        @include block_min;
+        margin-top: 31px;
+        &__text { 
+            @include block_p24;
+        }
+        &__wrapper {
+            img {
+                @include block_img_min;
+            }
+        }
+    }
+
+    .deposit{
+        @include block_min;
+        margin-top: 31px;
+        &__text { 
+            @include block_p24;
+        }
+        &__wrapper {
+            img {
+                @include block_img_min;
+            }
+        }
+    }
+    .share {
+        @include block_min;
+        margin-top: 140px;
+        &__text { 
+            @include block_p24;
+        }
+        &__wrapper {
+            
+            img {
+                @include block_img_min;
+            }
+        }
+        &__numbers{
+            margin: 20px 0;
+            width: 272px;
+            height: 54px;
+            display: flex;
+            justify-content: space-evenly;
+    
+        }
+    }
+
+    .analytics {
+        padding: 70px 20px 0 20px;
+        &__awards {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+    }
+
+    .protection {
+        margin-top: 28px;
+        padding: 0 24px;
+        &__block {
+            padding: 30px;
+        }
+    }
+
+    .userData {
+        min-height: 470px;
+        padding: 0 24px;
+        &__form {
+            .input_main {
+                margin-top: 20px;
+                width: 272px;
+                img {
+                    display: none;
+                }
+            }
+        }
+        &__checkbox {
+            width: 272px;
+            .checkbox {
+                width: 24px;
+                margin-top: 0;
+      
+            }
+        }
+    }
+
+    .button {
+        width: 272px;
+        height: 56px;
+        margin-top: 20px;
+        padding: 11px 22px;
+    }
+
+    .title {
+        &_fz18 {
+            font-size: 12px;
+            line-height: 14px;
+        }
+    }
+}

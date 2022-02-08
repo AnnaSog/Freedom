@@ -1,0 +1,26 @@
+
+.investments{
+    min-height: 720px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F3F7F9 100%);
+    padding-left: 40px;
+    &__wrapper{
+        display: flex;
+        position: relative;
+    }
+    &__info{
+        max-width: 810px;
+        min-height: 429px;
+        .info_img {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+    }
+    .img_percent{
+        width: 856px;
+        height: 624px;
+        position: absolute;
+        top: 96px;
+        right: 0;
+    }
+}

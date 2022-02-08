@@ -1,0 +1,53 @@
+.userData {
+    margin-top: 74px;
+    height: 470px;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        position: relative;
+        input {
+            margin-top: 22px;
+            width: 600px;
+            padding: 16px 0px 16px 14px;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        img {
+            position: absolute;
+            top: 40%;
+            right: 5%;
+        }
+    }
+    &__checkbox {
+        margin-top: 20px;
+        width: 600px;
+        display: flex;
+        align-items: center;
+        height: 24px;
+        input {
+            margin-top: 0;
+            margin-right: 15px;
+            border: 1px solid #CCCCCC;
+            border-radius: 3px;
+            height: 24px;
+            width: 24px;
+        }
+        span {
+            font-size: 14px;
+            line-height: 20px;
+        }
+        a {
+            color: $main-color;
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.share {
+    @include block;
+    &__wrapper{
+        display: flex;
+        .green {
+            color: $main-color;
+            font-weight: 300;
+        }
+    }
+    &__numbers{
+        margin: 40px 0;
+        width: 436px;
+        height: 104px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+  
+}

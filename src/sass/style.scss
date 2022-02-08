@@ -1,0 +1,40 @@
+@import 'base/font';
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'FF Good Pro', sans-serif;
+}
+
+
+.container{
+    max-width: 1320px;
+    // max-width: 1240px;
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    .footer{
+        width: 100%;
+    }
+}
+
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/title';
+@import 'blocks/investments';
+@import 'blocks/logos';
+@import 'blocks/convenience';
+@import 'blocks/share';
+@import 'blocks/stocks';
+@import 'blocks/deposit';
+@import 'blocks/proposal';
+@import 'blocks/analytics';
+@import 'blocks/protection';
+@import 'blocks/userData';
+@import 'blocks/media';
+

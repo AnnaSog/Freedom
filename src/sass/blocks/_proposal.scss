@@ -1,0 +1,11 @@
+ 
+.proposal {
+    @include block;
+    min-height: 100vh;
+    &__wrapper {
+        @include block_wrapper;
+    }
+    &__text {
+        @include block_text;
+    }
+}

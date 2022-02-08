@@ -1,0 +1,43 @@
+
+@mixin block {
+    margin-top: 70px;
+    padding: 70px 40px 0 40px;
+    min-height: 100vh;
+}
+
+@mixin block_min {
+    padding: 0;
+    height: auto
+}
+
+@mixin block_p24 {
+    padding: 0px 24px 0 24px;
+}
+
+@mixin block_wrapper {
+    display: flex;
+}
+
+@mixin block_img {
+    height: 551px;
+}
+
+@mixin block_img_min {
+    width: 100%;
+    height: auto;
+}
+
+@mixin block_text {
+    .title_fz60 {
+        max-width: 735px;
+    }
+    .title_fz24 {
+        max-width: 580px;
+    }
+}
+
+@mixin column {
+    display: flex;
+    flex-direction: column;
+}
+

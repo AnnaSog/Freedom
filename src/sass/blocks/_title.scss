@@ -1,0 +1,42 @@
+
+.title {
+    &_fz16 {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+    }
+    &_fz18 {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: normal;
+    }
+    &_fz24{
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: normal;
+        margin-top: 40px;
+        span {
+            color: $main-color;
+        }
+    }
+    &_fz30{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+    }
+    &_fz40 {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+    }
+    &_fz60{
+        font-size: 60px;
+        line-height: 72px;
+        font-weight: normal;
+        span {
+            color: $main-color;
+        }
+    }
+}

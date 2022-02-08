@@ -1,0 +1,13 @@
+.protection {
+    margin-top: 140px;
+    padding: 0 40px 0 40px;
+    &__block{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 60px;
+        background: #F8F8F8;
+        border-radius: 10px;
+    }
+}

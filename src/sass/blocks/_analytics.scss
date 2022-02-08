@@ -1,0 +1,19 @@
+.analytics {
+    height: 500px;
+    background: #F8F8F8;
+    padding: 140px 40px 0 40px;
+    &__wrapper {
+       text-align: center;
+       .title_fz18 {
+           margin-top: 48px;
+        }
+    }
+    &__awards {
+        display: flex;
+        margin-top: 80px;
+        justify-content: center;
+        img {
+            height: 405px;
+        }
+    }
+}

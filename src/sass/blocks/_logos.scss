@@ -1,0 +1,12 @@
+.logos {
+    margin: 0 auto;
+    min-height: 58px;
+    max-width: 876px;
+    padding: 70px 0 70px 0;
+    &__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

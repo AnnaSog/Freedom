@@ -1,0 +1,54 @@
+
+.button {
+    cursor: pointer;
+    background: $main-color;
+    border: none;
+    border-radius: 3px;
+    color: #FFFFFF;
+    width: 330px;
+    height: 56px;
+    margin-top: 40px;
+    padding: 14px 84px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+
+    &_search{
+        background: #E5F5E0;
+        margin-top: 0;
+        margin-left: 20px;
+        padding: 12px 32px;
+        height: 40px;
+        width: 80px;
+        svg{
+            margin-bottom: 6px;
+            width: 16px;
+            height: 16px;
+        }
+    }
+    &_signUp{
+        margin-top: 0;
+        height: 40px;
+        width: 90px;
+        padding: 8px 0;
+        font-size: 12px;
+    }
+    &_login{
+        margin-top: 0;
+        height: 40px;
+        width: 90px;
+        padding: 10px 23px;
+        background:none;
+        font-size: 14px;
+        line-height: 20px;
+        color: $main-color;
+    }
+    &_main {
+        width: 280px;
+        height: 56px;  
+    }
+    &_600w{
+        width: 600px;
+        height: 64px;
+    }
+}

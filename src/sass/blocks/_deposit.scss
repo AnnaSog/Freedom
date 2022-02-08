@@ -1,0 +1,10 @@
+
+.deposit {
+    @include block;
+    &__wrapper {
+        @include block_wrapper;
+    }
+    &__text {
+        @include block_text;
+    }
+}
